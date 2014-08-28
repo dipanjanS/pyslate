@@ -32,6 +32,6 @@ Following are the main usage patterns of pyslate.
 >>> tr = Translator()
 >>> tr.translate('hello world', from_lang='en', to_lang='de')
 u'hallo Welt'
->>> t.detect("hallo Welt")
+>>> tr.detect("hallo Welt")
 u'de'
 ```
